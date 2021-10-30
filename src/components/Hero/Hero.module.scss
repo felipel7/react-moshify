@@ -1,0 +1,68 @@
+@import "../../styles/global.scss";
+
+section {
+  background: #000;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+  padding: 50px 20px 90px;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    padding-top: 0;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1140px;
+
+    :first-child,
+    :nth-child(2) {
+      flex: 1;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 60px;
+
+      @media screen and (min-width: 1024px) {
+        font-size: 80px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      align-items: center;
+      flex-direction: row;
+      padding-top: 0;
+      text-align: left;
+    }
+  }
+
+  p {
+    color: #b9c3cf;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 20px 0 30px;
+  }
+
+  picture img {
+    height: 100%;
+    width: 100%;
+  }
+
+  button {
+    background: $color-accent;
+    margin-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    &:hover {
+      background: darken($color-accent, 3%);
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 15px;
+    }
+  }
+}
