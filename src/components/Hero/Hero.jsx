@@ -1,10 +1,10 @@
 import React from "react";
-import "./Hero.module.scss";
+import styles from "./Hero.module.scss";
 import logo from "../../assets/images/banner.png";
 
 export default function Hero() {
   return (
-    <section>
+    <section className={styles.hero}>
       <div>
         <header>
           <h1>Cloud Hosting for Pros</h1>

@@ -1,0 +1,130 @@
+@import "../../styles/global.scss";
+
+.cardContainer {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  transition: transform 0.2s ease-out;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 480px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  header,
+  .cardBody {
+    position: relative;
+    padding: 20px;
+  }
+}
+
+.cardHeader {
+  background: $color-secondary;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  color: #fff;
+
+  h3 {
+    color: inherit;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  > span {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  div {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+    .price {
+      font-size: 50px;
+    }
+
+    .billingCycle {
+      font-size: 20px;
+      font-weight: 300;
+      margin-left: 4px;
+      opacity: 0.8;
+    }
+
+    & .badge {
+      background: darken($color-secondary, 3%);
+      border-radius: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-left: 10px;
+      padding: 5px 15px;
+    }
+  }
+}
+
+.primary {
+  transform: scale(1.1);
+
+  &:hover {
+    transform: scale(1.15);
+  }
+
+  .cardHeader::before {
+    content: url(../../assets/images/popular.svg);
+    display: inline-block;
+    max-width: 43px;
+    position: absolute;
+    right: 5%;
+    top: -6px;
+    width: 50px;
+  }
+
+  .cardHeader {
+    background: $color-primary;
+    div {
+      .badge {
+        background: darken($color-primary, 5%);
+      }
+    }
+  }
+}
+
+.cardBody {
+  color: $color-headings;
+
+  ul {
+    margin: 20px 0;
+  }
+
+  button {
+    background: #fff;
+    border: 2px solid $color-headings;
+    color: inherit;
+    width: 100%;
+
+    &:hover {
+      background: $color-headings;
+      color: #fff;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    li {
+      display: flex;
+      font-size: 20px;
+      gap: 10px;
+    }
+
+    svg {
+      align-self: center;
+      color: #0ddd52;
+      margin-left: 10px;
+    }
+  }
+}
