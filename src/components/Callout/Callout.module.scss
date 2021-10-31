@@ -1,0 +1,55 @@
+@import "../../styles/global.scss";
+
+.calloutWrapper {
+  background: $color-primary;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 40px;
+}
+
+.calloutContent {
+  align-items: center;
+  color: #fff;
+  display: grid;
+  justify-items: center;
+  line-height: 30px;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr auto;
+    text-align: left;
+  }
+
+  h2 {
+    color: inherit;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background: $color-secondary;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0 20px;
+
+    &:hover {
+      background: darken($color-secondary, 3%);
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    p {
+      font-size: 18px;
+      line-height: 27px;
+    }
+
+    button {
+      font-size: 15px;
+    }
+  }
+}
