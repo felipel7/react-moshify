@@ -1,0 +1,113 @@
+.footer {
+  background: #232323;
+  padding: 100px 20px 50px;
+
+  > div {
+    display: grid;
+    margin: 0 auto;
+    max-width: 1140px;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    }
+  }
+
+  section {
+    border-bottom: 1px solid #393939;
+    line-height: 30px;
+    padding: 20px;
+    user-select: none;
+
+    @media screen and (min-width: 768px) {
+      border: none;
+      line-height: 22px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      @media screen and (min-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    span {
+      align-items: center;
+      background: #393939;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      height: 40px;
+      justify-content: center;
+      transition: all 0.2s ease-in-out;
+      width: 40px;
+
+      &:not(.selected) {
+        transform: rotate(90deg);
+      }
+
+      @media screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+
+    ul {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.3s;
+
+      &:not(.selected) {
+        max-height: 100%;
+        opacity: 1;
+      }
+
+      @media screen and (min-width: 768px) {
+        max-height: 100%;
+        opacity: 1;
+      }
+
+      li {
+        color: #777;
+        cursor: pointer;
+        font-size: 20px;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+          color: #fff;
+        }
+
+        @media screen and (min-width: 768px) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  picture {
+    color: #777;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      font-size: 15px;
+      margin-top: 10px;
+      order: -1;
+    }
+
+    img {
+      width: 100%;
+      min-width: 100px;
+      max-width: 230px;
+    }
+  }
+}

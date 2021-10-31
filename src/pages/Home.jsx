@@ -7,6 +7,7 @@ import Features from "../components/Features/Features";
 import Showcase from "../components/Showcase/Showcase";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Callout from "../components/Callout/Callout";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Showcase />
       <Testimonial />
       <Callout />
+      <Footer />
     </div>
   );
 }
