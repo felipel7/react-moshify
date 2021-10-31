@@ -5,6 +5,7 @@ import Domain from "../components/Domain/Domain";
 import Plans from "../components/Plans/Plans";
 import Features from "../components/Features/Features";
 import Showcase from "../components/Showcase/Showcase";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Plans />
       <Features />
       <Showcase />
+      <Testimonial />
     </div>
   );
 }
