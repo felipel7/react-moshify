@@ -1,0 +1,90 @@
+@import "../../styles/global.scss";
+
+.showcase {
+  background: #000;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
+  margin: 0 auto;
+  padding: 50px 20px 90px;
+
+  header {
+    color: #fff;
+    margin-bottom: 40px;
+
+    h2 {
+      color: inherit;
+      margin: 35px 0 10px;
+      text-align: center;
+    }
+  }
+}
+
+.showcaseContent {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.showcaseGrid {
+  display: grid;
+  font-size: 20px;
+
+  picture {
+    img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 50% 50%;
+
+    picture {
+      justify-self: end;
+
+      img {
+        max-width: 700px;
+        width: auto;
+      }
+    }
+  }
+
+  ul {
+    margin: 18px 0;
+
+    li {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.showcaseMedia {
+  color: #7b858b;
+  display: flex;
+  gap: 20px;
+  line-height: 30px;
+  margin-right: 20px;
+
+  h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    line-height: 27px;
+
+    h3 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  svg {
+    color: $color-primary;
+  }
+}
