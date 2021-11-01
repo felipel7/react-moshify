@@ -5,7 +5,7 @@ import styles from "./Testimonial.module.scss";
 
 export default function Testimonial() {
   return (
-    <section className={styles.testimonial}>
+    <section className={styles.testimonial} data-aos="zoom-in">
       <header>
         <h2>What our Customers are Saying</h2>
         <p>

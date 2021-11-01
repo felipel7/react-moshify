@@ -30,7 +30,7 @@ export default function Domain() {
   }
 
   return (
-    <div className={styles.domain}>
+    <div className={styles.domain} data-aos="zoom-in-up">
       <header>
         <h2>Starting at $10 per month</h2>
         <p>

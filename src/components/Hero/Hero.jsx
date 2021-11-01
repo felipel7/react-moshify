@@ -7,13 +7,13 @@ export default function Hero() {
     <section className={styles.hero}>
       <div>
         <header>
-          <h1>Cloud Hosting for Pros</h1>
+          <h1 data-aos="zoom-in-up">Cloud Hosting for Pros</h1>
           <p>Deploy your websites in less than 60 seconds.</p>
           <a href="#">
             <button type="button">Get started</button>
           </a>
         </header>
-        <picture>
+        <picture data-aos="zoom-in">
           <img src={logo} alt="" />
         </picture>
       </div>

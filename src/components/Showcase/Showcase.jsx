@@ -14,11 +14,11 @@ export default function Showcase() {
           <h2>User-friendly Control Panel</h2>
         </header>
         <div className={styles.showcaseGrid}>
-          <picture>
+          <picture data-aos="fade-right">
             <img src={ipad} alt="ipad" />
           </picture>
           <div>
-            <ul>
+            <ul data-aos="fade-up">
               <li>
                 {/* Media */}
                 <div className={styles.showcaseMedia}>

@@ -23,7 +23,7 @@ export default function Features() {
       </header>
       {/* Easy */}
       <article>
-        <div>
+        <div data-aos="zoom-in-up">
           <span>
             <GiMagicSwirl size={35} />
           </span>
@@ -34,17 +34,17 @@ export default function Features() {
           </p>
           <a href="#">Learn more</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-up">
           <img src={easy} alt="easy" />
         </picture>
       </article>
       {/* Fast */}
       <article>
-        <div>
+        <div data-aos="fade-up">
           <span>
             <CgWebsite size={35} />
           </span>
-          <h3>Super Easy to Use</h3>
+          <h3>Simply Fast Websites</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
@@ -57,11 +57,11 @@ export default function Features() {
       </article>
       {/* Wordpress */}
       <article>
-        <div>
+        <div data-aos="fade-up">
           <span>
             <FaWordpress size={35} />
           </span>
-          <h3>Super Easy to Use</h3>
+          <h3>Wordpress Made Easy</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
@@ -74,18 +74,18 @@ export default function Features() {
       </article>
       {/* 24/7 */}
       <article>
-        <div>
+        <div data-aos="fade-up">
           <span>
             <GiBackwardTime size={35} />
           </span>
-          <h3>Super Easy to Use</h3>
+          <h3>24/7 Expert Support</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
           <a href="#">Learn more</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-up">
           <img src={support} alt="support" />
         </picture>
       </article>
