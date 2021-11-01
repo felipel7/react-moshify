@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <nav className={styles.nav}>
-      <a href="">
+      <a href="https://github.com/FelipeL7/react-moshify" target="_blank">
         <img src={logo} alt="moshify logo" />
       </a>
       <IoMenuOutline
@@ -29,7 +29,9 @@ export default function Header() {
       <ul className={toggler}>
         {links.map(link => (
           <li key={link.id}>
-            <a href="#">{link.title}</a>
+            <a href="https://github.com/FelipeL7/react-moshify" target="_blank">
+              {link.title}
+            </a>
           </li>
         ))}
       </ul>

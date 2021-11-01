@@ -15,19 +15,19 @@ export default function Footer() {
       id: 2,
       title: "Company",
       links: ["About", "Affiliates", "Blog"],
-      isSelected: false,
+      isSelected: true,
     },
     {
       id: 3,
       title: "Support",
       links: ["Contact", "Knowledge Base", "FAQ"],
-      isSelected: false,
+      isSelected: true,
     },
     {
       id: 4,
       title: "Domains",
       links: ["Domain Checker", "Domain Transfer", "Free Domain"],
-      isSelected: false,
+      isSelected: true,
     },
   ]);
 

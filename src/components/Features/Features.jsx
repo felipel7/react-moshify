@@ -32,7 +32,9 @@ export default function Features() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#">Learn more</a>
+          <a href="https://github.com/FelipeL7/react-moshify" target="_blank">
+            Learn more
+          </a>
         </div>
         <picture data-aos="zoom-in-up">
           <img src={easy} alt="easy" />
@@ -49,7 +51,9 @@ export default function Features() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#">Learn more</a>
+          <a href="https://github.com/FelipeL7/react-moshify" target="_blank">
+            Learn more
+          </a>
         </div>
         <picture>
           <img src={fast} alt="fast" />
@@ -66,7 +70,9 @@ export default function Features() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#">Learn more</a>
+          <a href="https://github.com/FelipeL7/react-moshify" target="_blank">
+            Learn more
+          </a>
         </div>
         <picture>
           <img src={wordPress} alt="wordpress" />
@@ -83,7 +89,9 @@ export default function Features() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#">Learn more</a>
+          <a href="https://github.com/FelipeL7/react-moshify" target="_blank">
+            Learn more
+          </a>
         </div>
         <picture data-aos="zoom-in-up">
           <img src={support} alt="support" />

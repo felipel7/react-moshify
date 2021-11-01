@@ -49,7 +49,8 @@ export default function Domain() {
         {domains.map(domain => (
           <li key={domain.id}>
             <a
-              href="/"
+              href="https://github.com/FelipeL7/react-moshify"
+              target="_blank"
               onClick={event => handleSelected(event, domain.id)}
               className={domain.isSelected ? `${styles.active}` : ""}
             >

@@ -9,7 +9,7 @@ export default function Hero() {
         <header>
           <h1 data-aos="zoom-in-up">Cloud Hosting for Pros</h1>
           <p>Deploy your websites in less than 60 seconds.</p>
-          <a href="#">
+          <a href="https://github.com/FelipeL7/react-moshify" target="_blank">
             <button type="button">Get started</button>
           </a>
         </header>
