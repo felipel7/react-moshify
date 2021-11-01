@@ -7,11 +7,6 @@ import "aos/dist/aos.css";
 export default function App() {
   useEffect(() => {
     AOS.init({
-      // // moshy
-      // duration: 500,
-      // delay: 0,
-      // easing: "ease",
-
       disable: false,
       startEvent: "load",
       initClassName: "aos-init",
